@@ -19,8 +19,7 @@ public class Pasport implements Serializable {
     @Id
     @NotNull
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Size(min = 10000000)
-    Long seria;
+    Long id;
 
     String JSHSHIR;
 
